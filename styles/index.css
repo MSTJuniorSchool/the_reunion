@@ -1,0 +1,46 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 3%;
+	padding: 0;
+	background-color: silver;
+}
+body a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+
+.events-list{
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0;
+	display; inline-block;
+}
+
+.events-list li{
+	background-color: #f9f9f9;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.events-list li:hover{
+	background-color: #e9e9e9	
+}
+
+.event1_detail{
+	float: right;
+}
+
+.event1{
+	width: 30%;
+}
+.event2{
+	width: 30%;
+}
+.event3{
+	width: 30%;
+}
